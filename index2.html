@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>first site</title>
+<link rel="stylesheet" href="style2.css">
+<body>
+<div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="stock/logo.png">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="">ABOUT </a></li>
+                <li><a href="">BLOG </a></li>
+                <li><a href="">CONTACT </a></li>
+            </ul>
+        </nav>
+        <div class="user">
+            <p>Paul Wesley</p>
+            <img src="stock/user.jpg" >
+        </div>
+    </div>
+    <div class="sidebar">
+        <img src="stock/search.jpg" class="search-icon">
+        <div class="social-links">
+            <img src="stock/twitter.png" >
+            <img src="stock/git.png" >
+            <img src="stock/insta.png" >
+        </div>
+        <img src="stock/info.png" class="info-ic">
+    </div>
+
+   <div class="msg-container">
+        <div id="slider">
+            <div class="msg-col">
+            <h1>TRUST </h1>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. A magni, illum laborum exercitationem voluptates nemo recusandae aperiam sed autem at, nostrum ullam fugiat culpa nisi eos. Dicta aperiam delectus totam.
+            </p>
+            <a href="">Read more</a>
+            </div>
+            <div class="msg-col">
+            <h1>LOVE</h1>
+             <p>
+                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. A magni, illum laborum exercitationem voluptates nemo recusandae aperiam sed autem at, nostrum ullam fugiat culpa nisi eos. Dicta aperiam delectus totam.
+             </p>
+             <a href="">Read more</a>
+            </div>
+            <div class="msg-col">
+            <h1>HATE </h1>
+             <p>
+                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. A magni, illum laborum exercitationem voluptates nemo recusandae aperiam sed autem at, nostrum ullam fugiat culpa nisi eos. Dicta aperiam delectus totam.
+             </p>
+             <a href="">Read more</a>
+            </div>
+            <div class="msg-col">
+            <h1>BELIEVE </h1>
+             <p>
+                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. A magni, illum laborum exercitationem voluptates nemo recusandae aperiam sed autem at, nostrum ullam fugiat culpa nisi eos. Dicta aperiam delectus totam.
+             </p>
+             <a href="">Read more</a>
+            </div>
+        </div>
+    </div>
+    <div class="controller">
+        <div id="line1"></div>
+        <div id="line2"></div>
+        <div id="line3"></div>
+        <div id="line4"></div>
+        <div id="active"></div>
+    </div>
+</div>
+<script>
+    var slider=document.getElementById('slider');   
+    var slider=document.getElementById('active');
+    var slider=document.getElementById('line1');
+    var slider=document.getElementById('line2');
+    var slider=document.getElementById('line3');
+    var slider=document.getElementById('line4');
+
+    line1.onClick=function(){
+        slider.style.transform='translateX(0)';
+        active.style.top='0px';
+    }
+    line2.onClick=function(){
+        slider.style.transform='translateX(-25%)';
+        active.style.top='80px';
+    }
+    line3.onClick=function(){
+        slider.style.transform='translateX(-50%)';
+        active.style.top='160px';
+    }
+    line4.onClick=function(){
+        slider.style.transform='translateX(-75%)';
+        active.style.top='240px';
+    }
+    </script>
+
+
+</body>
+</html>
+
